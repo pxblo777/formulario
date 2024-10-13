@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" class="modelo1">
+
+        <h1>Formulário de Contato<br/>
+            <span class="titulo2">Preencha todos os campos.</span>
+        </h1>
+
+        <div>
+            <div class="rotulos">Nome: </div>
+            <input id="nome" type="text" name="nome" placeholder="Nome Completo." class="entrada"/>
+        </div>
+
+        <div>
+            <div class="rotulos" >Email: </div>
+            <input id="nome" type="email" name="email" placeholder="Email Válido." class="entrada"/>
+
+        </div>
+
+        <div>
+            <div class="rotulos">Assunto: </div>
+            <select name="opcoes" class="entrada">
+                <option value=""></option>
+                <option value="Dúvidas do Produto">Duvidas do Produto</option>
+                <option value="Atraso na Entrega">Atraso na Entrega</option>
+            </select>
+        </div>
+
+        <div>
+            <div class="rotulos">Mensagem: </div>
+            <textarea name="mensagem" id="mensagem" placeholder="Sua Mensagem" class="entrada"></textarea>
+        </div>
+        <div>
+            <div class="rotulos">&nbsp;</div>
+            <input type="button" value="Enviar" class="botao"/>
+        </div>
+    </form>
+</body>
+</html>
